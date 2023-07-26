@@ -20,4 +20,7 @@ from presentation import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('home/', views.home),
+    path('aboutme/', views.aboutme),
 ]
+
+
